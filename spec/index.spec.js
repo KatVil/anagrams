@@ -9,6 +9,6 @@ test("Функция должна находить анаграммы", () => {
   expect(isAnagrams("melo2n", "lemon2")).toBe(true);
   expect(isAnagrams("lemon", "melon")).toBeTruthy();
   expect(isAnagrams("le2mon", "melon")).toBeFalsy();
-  expect(isAnagrams("melon", "melon")).toBe(true);
+  expect(isAnagrams("MELON", "melon")).toBe(true);
   expect(isAnagrams("kilso", "osilk")).toBeTruthy();
 });
